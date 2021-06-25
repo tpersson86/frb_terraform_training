@@ -9,4 +9,4 @@ variable "identity" {}
 variable "vpc_security_group_ids" {
   type = list(any)
 }
-variable "num_webs" {}
+#variable "num_webs" {}
