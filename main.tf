@@ -12,5 +12,5 @@ module "server" {
   subnet_id              = var.subnet_id
   vpc_security_group_ids = var.vpc_security_group_ids
   identity               = var.identity
-  num_webs               = var.num_webs
+#  num_webs               = var.num_webs
 }
