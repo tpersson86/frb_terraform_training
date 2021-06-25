@@ -6,7 +6,7 @@ provider "aws" {
 
 
 module "server" {
-  source = "git@github.com:tpersson86/frb_terraform_-module.git?ref=v1.0.0"
+  source = "git@github.com:tpersson86/frb_terraform_-module.git?ref=v1.0.1"
 
   ami                    = var.ami
   subnet_id              = var.subnet_id
