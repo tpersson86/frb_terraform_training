@@ -8,6 +8,7 @@
 *.1
 *.old
 *.backup
-*.tfvars
+#*.tfvars
 .terraform/
 terraform.tfstate*
+creds
